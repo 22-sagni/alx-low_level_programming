@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * this program initiates at main
- * and terminates at the return statement
+ * main - entry point 
+ * 
+ * return: 0 after executing the function
  */
 int main(void)
 {
