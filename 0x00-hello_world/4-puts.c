@@ -1,9 +1,9 @@
 #!/bin/bash
+
 #include <stdio.h>
 int main(void)
 {
-	char Text[]="Programming is like building a multilingual puzzle";
-	puts(Text);
+	puts("Programming is like building a multilingual puzzle");
 
 	return(0)
 }
