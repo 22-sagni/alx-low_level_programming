@@ -8,13 +8,12 @@
  *
  * Return: returns zero after printing
  */
-int main (void)
+int main(void)
 {
 	int i;
 
 	for (i = 0; i < 10; i++)
-		putchar(i);
-	putchar('\n');
+		printf(i, "\n")
 	return (0);
 
 }
