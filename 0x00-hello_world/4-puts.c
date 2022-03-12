@@ -4,7 +4,7 @@
  *
  * return: 0 after executing the function
  */
-int main(void)/* return: 0 after execution the function*/
+int main(void)/* return: 0 after printing the function*/
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
