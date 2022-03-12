@@ -1,11 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - entry point
+ *
+ * takes the randome number generated n
+ * tells wether the generated number is
+ * positive, negative, or zero.
+ */
 int main(void)
-/*Main - entry point*/
 {
 	int n;
 
