@@ -4,7 +4,7 @@
  * main - entry point
  *
  * prints lowercase english alphabets
- * followed by uppercase alphabets
+ * except for 'e' and 'q'
  *
  * Return: returns zero after printing
  */
@@ -13,9 +13,14 @@ int main(void)
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		if (ch == 'e')
+		continue;
+		else if (ch == 'q')
+		continue;
+		else
 		putchar(ch);
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
+	}
 	putchar('\n');
 	return (0);
 }
