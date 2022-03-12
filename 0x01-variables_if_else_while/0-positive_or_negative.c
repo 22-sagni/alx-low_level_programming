@@ -7,6 +7,8 @@
  * takes the randome number generated n
  * tells wether the generated number is
  * positive, negative, or zero.
+ *
+ * Return: returns zero after printing
  */
 int main(void)
 {

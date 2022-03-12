@@ -9,6 +9,8 @@
  * generated number is greater than five,
  * equal to zero, or is less than six and
  * is not equal to zero.
+ *
+ * Return: returns zero after printing
  */
 int main(void)
 {
