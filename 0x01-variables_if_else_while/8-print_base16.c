@@ -3,7 +3,7 @@
 /**
  * main - entrance
  *
- * prints base sixteen numbers 
+ * prints base sixteen numbers
  * in lower case
  *
  * Return: returns 0 upon success
