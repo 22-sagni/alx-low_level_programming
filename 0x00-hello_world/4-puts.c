@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ *
  * Main - entry point
  *
  * Return: zero after printing the function
