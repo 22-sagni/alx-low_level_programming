@@ -29,7 +29,6 @@ int main(void)
 					if (i == 57)
 						break;
 
-
 				putchar(',');
 				putchar(' ');
 			}
