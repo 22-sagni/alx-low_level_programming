@@ -16,17 +16,20 @@ int main(void)
 		for (m = 48; i <= 57; i++)
 		{
 			if (i == m)
-			continue;
+				continue;
 			if (m < i)
-			continue;
+				continue;
+
 			putchar(i);
 			putchar(m);
-			if (i == 56)
-			break;
-		}
 
-	putchar(',');
-	putchar(' ');
+			if (i == 56)
+				break;
+		
+
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
