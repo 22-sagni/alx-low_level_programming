@@ -4,7 +4,7 @@
  *
  * Return: returns zero after printing the function
  */
-int main(void)
+int main(void)/*Main function starts here*/
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
