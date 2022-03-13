@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * Main - entry point
+ * main - entry point
  *
  * Return: returns zero after printing the function
  */
-int main(void)/*Main function starts here*/
+int main(void)/*main function starts here*/
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
