@@ -4,7 +4,7 @@
  *
  * Return: zero after printing the function
  */
-int main(void)/* Main - starts here*/
+int main(void)/*Main - starts here*/
 { /* Main - prints the string*/
 	puts("\"Programming is like building a multilingual puzzle");
 
