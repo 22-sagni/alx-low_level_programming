@@ -18,6 +18,11 @@ int main(void)
 		putchar(' ');
 		i++;
 	}
+	for (i = 58; i < 59;)
+	{
+		putchar(i);
+		i++;
+	}
 	return (0);
 
 }
