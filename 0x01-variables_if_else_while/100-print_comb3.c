@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 48; i <= 57; i++)
 	{
-		for (m = 48; i <= 57; i++)
+		for (m = 48; m <= 57; m++)
 		{
 			if (i == m)
 				continue;
@@ -25,7 +25,7 @@ int main(void)
 
 			if (i == 56)
 				break;
-		
+
 
 			putchar(',');
 			putchar(' ');
