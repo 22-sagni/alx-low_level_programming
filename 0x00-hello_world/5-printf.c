@@ -3,7 +3,8 @@
  * Main - entry point
  *
  * Return: returns zero after printing the function
- */
+*/
+/* Main - starts here*/
 int main(void)
 {
 	/*main fuction */
