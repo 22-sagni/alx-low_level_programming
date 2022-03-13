@@ -13,15 +13,15 @@ int main(void)
 
 	for (i = 48; i <= 57; i++)
 	{
-		for (m = 48; i <= 57; i++)
-			if (i == m)
-				continue;
-			if (m < i)
-				continue;
+	for (m = 48; i <= 57; i++)
+		if (i == m)
+		continue;
+		if (m < i)
+		continue;
 		putchar(i);
 		putchar(m);
-			if (i == 56)
-				break;
+		if (i == 56)
+		break;
 
 		putchar(',');
 		putchar(' ');
