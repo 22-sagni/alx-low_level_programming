@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i, j, m, n;
-	
+
 	for (i = 48; i <= 57; i++)
 	{
 		for (j = 48; j <= 57; j++)
@@ -21,6 +21,9 @@ int main(void)
 						continue;
 					if (m < i)
 						continue;
+					if (n <= j)
+						continue;
+
 					putchar(i);
 					putchar(j);
 					putchar(' ');
@@ -35,6 +38,5 @@ int main(void)
 		}
 	}
 		putchar('\n');
-		return (0);
-	
+		return (0);	
 }
