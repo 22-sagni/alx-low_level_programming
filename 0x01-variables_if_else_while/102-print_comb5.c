@@ -3,35 +3,38 @@
 /**
  * main - entry point
  *
- * prints all possible combinaltin for
- * two two-digit numbers
- *
- * Returns: returns zero upon completion
+ * Return: returns zero upon completion
  */
 int main(void)
 {
-	int i, j, m;
-
+	int i, j, m, n;
+	
 	for (i = 48; i <= 57; i++)
 	{
 		for (j = 48; j <= 57; j++)
 		{
-			for (m = 49; m <= 57; m++)
+			for (m = 48; m <= 57; m++)
 			{
-				if (m <= j)
-					continue;
-				putchar(i);
-				putchar(j);
-				putchar(' ');
-				putchar(i);
-				putchar(m);
-				if (j == 56)
-					break;
-				putchar(',');
-				putchar(' ');
+				for (n = 48; n <= 57; n++)
+				{
+					if (n <= i)
+						continue;
+					if (m < i)
+						continue;
+					putchar(i);
+					putchar(j);
+					putchar(' ');
+					putchar(m);
+					putchar(n);
+					if (i == 57 && j == 56)
+						break;
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
+	
 }
