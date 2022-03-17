@@ -7,17 +7,12 @@
 
 int _abs(int n)
 {
-	int absolute_value;
 	if (n < 0)
 	{
-		absolute_value=-1*n
-		_putchar('absolute_value');
-		return (absolute_value);
+		return (n * (-1));
 	}
 	else
 	{
-		absolute_value = n;
-		_putchar('absolute_value);
-		return (absolute_value);
+		return (n);
 	}
 }
