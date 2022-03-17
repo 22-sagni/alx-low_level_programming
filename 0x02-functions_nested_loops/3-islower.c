@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - checks for lowercase characters
- *
+ * @c: takes parameters to be compaired
  * Return: always returns zero
  */
 
