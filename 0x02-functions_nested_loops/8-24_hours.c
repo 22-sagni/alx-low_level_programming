@@ -9,28 +9,29 @@ void jack_bauer(void)
 {
 	int i, j, m, n;
 
-	i = 48;
-	while (i <= 57)
+	if (i =48; i <= 57; i++)
 	{
 		for (j = 48; j <= 57; j++)
 		{
-			m = 48;
-			while (m <= 57)
+			if (m = 48; m <= 57; m++)
 			{
 				for (n = 48; n <= 57; n++)
 				{
-					if ((i > 2 && j > 4) && (m > 53 && n > 57))
+					if ((i > 2 && j > 4))
+						continue;
+					if ((m > 53 && n > 57))
+						continue;
+					if ((i + j + m + n = 19))
 						break;
 					_putchar(i);
 					_putchar(j);
 					_putchar(':');
 					_putchar(m);
 					_putchar(n);
+					_putchar('\n');
 				}
 			}
 		}
-		
-		i++;
 	}
 }
 
