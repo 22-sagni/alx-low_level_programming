@@ -4,7 +4,7 @@
  *
  * Return: returns zero after printing
  */
-int _putchar(void)
+int main(void)
 {
 	putchar("_putchar");
 	return (0);
