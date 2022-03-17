@@ -5,16 +5,16 @@
  * Return: returns an integer upon completion
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	if (int < 0)
+	if (n < 0)
 	{
-		_putchar(unsigned int);
-		return (0);
+		_putchar(unsigned int 'n');
+		return (n);
 	}
 	else
 	{
-		_putchar(int);
-		return (1);
+		_putchar('n');
+		return (n);
 	}
 }
