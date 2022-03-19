@@ -18,12 +18,13 @@ void print_times_table(int n)
 				break;
 			}
 
-			k = i * j
+			k = i * j;
 			_putchar(k);
 
 			if (j < n)
 			{
-				_putchar(", ");
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 	}
