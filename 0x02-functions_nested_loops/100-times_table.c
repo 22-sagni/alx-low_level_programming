@@ -5,7 +5,7 @@
  * starting with 0.
  * @n: The value of the times table to be printed.
  **/
-void times_table(unsigned int n)
+void print_times_table(unsigned int n)
 {
 	int i, j, k;
 
