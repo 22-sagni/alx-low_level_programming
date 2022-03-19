@@ -5,9 +5,12 @@
  * starting with 0.
  * @n: The value of the times table to be printed.
  **/
-void times_table(int n)
+void print_times_table(int n)
 {
 	int i, j;
+
+	if (n > 15)
+		break;
 
 	for (i = 0; i < n + 1; i++)
 	{
