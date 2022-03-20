@@ -9,22 +9,7 @@
 
 int mul(int a, int b)
 {
-	int mult;
+	int mult = a * b;
 
-	if ((_isdigit(a) && _isdigit(b))
-	{
-		mult = a * b;
-		return (mult);
-	}
-	else
-	{
-		_putchar('i');
-		_putchar('n');
-		_putchar('v');
-		_putchar('a');
-		_putchar('l');
-		_putchar('i');
-		_putchar('d');
-		_putchar('\n');
-	}
+	return (mult);
 }
