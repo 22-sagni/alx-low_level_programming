@@ -10,11 +10,16 @@ void pirnt_numbers(void)
 {
 	int i;
 
-	for (i >= 0; i <= 9; i++)
+	i = 0;
+	while (i < 10)
 	{
 		if ((i = 50 || i = 52))
-				continue;
+		{
+			continue;
+		}
+
 		_putchar(i + '0');
+		i++;
 	}
 	_putchar('\n');
 }
