@@ -8,9 +8,15 @@
 
 void print_line(int n)
 {
+	int i;
+
 	i = n;
 	while (i < n + 1)
 	{
+		if (n <= 0)
+		{
+			continue;
+		}
 		_putchar('_');
 		i++;
 	}
