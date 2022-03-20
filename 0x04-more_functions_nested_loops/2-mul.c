@@ -11,7 +11,7 @@ int mul(int a, int b)
 {
 	int mult;
 
-	if ((a >= '0' && a <= '9') && (b >= '0' && b <= '9'))
+	if ((_isdigit(a) && _isdigit(b))
 	{
 		mult = a * b;
 		return (mult);
