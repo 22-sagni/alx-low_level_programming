@@ -8,13 +8,13 @@
 
 void print_diagonal(int n)
 {
-	int i, j;
+	int i, j, n;
 
 	i = 1;
-	while (i < (n + 1))
+	while (i <= n)
 	{
 		j = 1;
-		while (j < (n + 1))
+		while (j <= n)
 		{
 			if (n <= 0)
 				break;
