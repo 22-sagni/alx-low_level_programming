@@ -1,25 +1,21 @@
 #include "main.h"
 /**
- * print_numbers - prints numbers 0 to 9 
- * except for 2 and 4
+ * print_numbers - prints numbers 0 to 9
  *
  * Return: returns zero
  */
 
 void pirnt_numbers(void)
 {
-	int i;
+	int m;
 
-	i = 0;
-	while (i <= '9')
+	m = 48;
+	while (m < 58)
 	{
-		if ((i = '2') || (i = '4'))
-		{
+		if ((m = 50) || (m = 52))
 			continue;
-		}
-
-		_putchar(i + '0');
-		i++;
+		_putchar(m + '0');
+		m++;
 	}
 	_putchar('\n');
 }
