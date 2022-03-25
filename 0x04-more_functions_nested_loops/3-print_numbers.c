@@ -9,9 +9,11 @@ void pirnt_numbers(void)
 {
 	int m;
 
-	for (m = '0'; m <= '9'; m++)
+	m = 48;
+	while (m < 58)
 	{
 		_putchar(m + '0');
+		m++;
 	}
 	_putchar('\n');
 }
