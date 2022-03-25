@@ -7,11 +7,11 @@
 
 void pirnt_numbers(void)
 {
-	int i;
+	int m;
 
-	for (i = '0'; i <= '9'; i++)
+	for (m = '0'; m <= '9'; m++)
 	{
-		_putchar(i + '0');
+		_putchar(m + '0');
 	}
 	_putchar('\n');
 }
