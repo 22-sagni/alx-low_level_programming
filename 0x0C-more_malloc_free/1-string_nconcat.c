@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * stritng_nconcat - ***
+ * string_nconcat - ***
  * @s1: ***
  * @s2: ***
  * @n: ***
